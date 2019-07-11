@@ -1,0 +1,11 @@
+{
+  "itemName" : "siliconboard",
+  "price" : 50,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "siliconboard.png",
+  "description" : "A silicon board. Can be used to craft electronics, and is also a delicous snack.",
+  "shortdescription" : "Silicon Board",
+  "itemTags" : [ "reagent" ],
+  "foodValue" : 2.5
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "op": "remove",
+    "path": "/itemTags"
+  },
+  {
+    "op": "replace",
+    "path": "/itemName",
+    "value": "dMqg4xQZSOzNtUC0HROe88yTJB19QKX4"
+  },
+  {
+    "op": "replace",
+    "path": "/price",
+    "value": 0
+  },
+  {
+    "op": "replace",
+    "path": "/rarity",
+    "value": "Common"
+  },
+  {
+    "op": "replace",
+    "path": "/category",
+    "value": "scrungus"
+  },
+  {
+    "op": "replace",
+    "path": "/description",
+    "value": "you should not have this go away"
+  },
+  {
+    "op": "replace",
+    "path": "/shortdescription",
+    "value": "no"
+  }
+]
+
