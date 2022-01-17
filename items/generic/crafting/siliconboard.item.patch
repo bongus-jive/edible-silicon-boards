@@ -1,37 +1,12 @@
 [
-  {
-    "op": "remove",
-    "path": "/itemTags"
-  },
-  {
-    "op": "replace",
-    "path": "/itemName",
-    "value": "dMqg4xQZSOzNtUC0HROe88yTJB19QKX4"
-  },
-  {
-    "op": "replace",
-    "path": "/price",
-    "value": 0
-  },
-  {
-    "op": "replace",
-    "path": "/rarity",
-    "value": "Common"
-  },
-  {
-    "op": "replace",
-    "path": "/category",
-    "value": "scrungus"
-  },
-  {
-    "op": "replace",
-    "path": "/description",
-    "value": "you should not have this go away"
-  },
-  {
-    "op": "replace",
-    "path": "/shortdescription",
-    "value": "no"
-  }
+	{
+		"op" : "replace",
+		"path" : "/itemName",
+		"value" : "pat_siliconboard_old"
+	},
+	{
+		"op" : "add",
+		"path" : "/builder",
+		"value" : "/items/generic/crafting/pat_siliconboard_old.lua"
+	}
 ]
-
