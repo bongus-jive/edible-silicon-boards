@@ -1,9 +1,14 @@
-function build(directory, config, parameters)
-	local board = root.assetJson("/items/generic/crafting/siliconboard.item")
-	
-	for k,v in pairs(board) do
-		config[k] = config[k] or v
-	end
-	
-	return config, parameters
+function build(directory, config, parameters, level, seed)
+  local board = root.assetJson("/items/generic/crafting/siliconboard.item")
+
+  for k, v in pairs(board) do
+    if config[k] == nil then config[k] = v end
+  end
+
+  if board.builder then
+    require(board.builder)
+    config, parameters = build(directory, config, parameters, level, seed)
+  end
+
+  return config, parameters
 end

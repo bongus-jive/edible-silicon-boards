@@ -1,6 +1,7 @@
 {
-  "itemName" : "siliconboard",
-  "itemTags" : [ "reagent" ],
-  "description" : "A silicon board. Can be used to craft electronics, and is also a delicous snack.",
-	"builder" : "/items/generic/crafting/pat_siliconboard.lua"
+  "itemName": "siliconboard",
+  "builder": "/items/generic/crafting/pat_siliconboard.lua",
+
+  "itemTags": [ "reagent" ],
+  "description": "A silicon board. Can be used to craft electronics, and is also a delicous snack."
 }
